@@ -4,8 +4,8 @@ import sys
 import os
 from subprocess import *
 
-if len(sys.argv) != 5:
-    print('Usage: {0} invertebrates_hits.m6.txt non_invertebrates_hits.m6.txt gene.gff genome.fa'.format(sys.argv[0]))
+if len(sys.argv) != 4:
+    print('Usage: {0} invertebrates_hits.m6.txt non_invertebrates_hits.m6.txt gene.gff'.format(sys.argv[0]))
     raise SystemExit
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
@@ -65,3 +65,4 @@ print('Identify genes in three groups ...')
 Popen(cmd, shell = True, stdout = PIPE).communicate()
 '''
 print('End of programs.')
+
