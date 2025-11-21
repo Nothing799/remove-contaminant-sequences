@@ -38,3 +38,4 @@ with open(integrated_tophit, 'r') as infile :
 outfile1.close()
 outfile2.close()
 outfile3.close()
+
