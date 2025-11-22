@@ -1,3 +1,4 @@
+## Before running the programs, please decompress the gzip files (in 'example', i.e., 'gene.gff.gz', 'invertebrates_hits.m6.txt.gz', 'non_invertebrates_hits.m6.txt.gz').
 ## remove-contaminant-sequences, under Windows system
 1. The python script 'Programs_for_remove_contaminant_sequences.Windows.py' is used for remove contaminant sequences.
 Running:
